@@ -130,3 +130,16 @@ ice_cream["chocolate"] = "blueberries"
 ice_cream.update({"matcha": "pistachios", "ube": "mango slices"})
 
 print(ice_cream)
+
+groceries = {"chicken": 8, "apples": 6, "cucumbers": 3, "milk": 2, "oranges": 4}
+
+remove = groceries.pop("oranges")
+keys = groceries.keys()
+getpass = groceries.get("chicken")
+print(groceries)
+
+newFile = open("math", "w")
+newFile.write("i like python")
+
+
+
