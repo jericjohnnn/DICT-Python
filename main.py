@@ -141,5 +141,29 @@ print(groceries)
 newFile = open("math", "w")
 newFile.write("i like python")
 
+x = 500
+if x > 100:
+    raise Exception("x should not be above 100")
+
+# try:
+#     print(variable1)
+# except:
+#     Exception("variable 1 is not yet defined")
+
+# for i in range(6):
+#     print("im so happy")
+
+try:
+    print(12*6)
+except:
+    print("this operation can be performed")
+else:
+    print("this operation can be performed")
+
+best_burger = "burger king"
+num2burger = "mcdo"
+
+assert best_burger == "burger king"
+assert best_burger == "mcdo"
 
 
