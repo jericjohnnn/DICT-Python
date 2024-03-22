@@ -167,3 +167,6 @@ assert best_burger == "burger king"
 assert best_burger == "mcdo"
 
 
+import functionfile
+
+functionfile.simplefunc()
