@@ -1,5 +1,6 @@
 # this is a comment
 # this is a comment
+import functionfile
 
 x = 300
 y = 6
@@ -15,7 +16,7 @@ add_twonumbers()
 
 def greetings(name):
     print("Have a nice day " + name)
-    
+
 
 greetings("jamal")
 
@@ -72,7 +73,6 @@ print(Customers.greeting)
 print(c_1.beverage)
 print(c_2.food)
 
-
 if x > 350:
     print("hooyah")
 
@@ -82,7 +82,6 @@ for x in furniture:
     if x == "cabinet":
         continue
     print(x)
-
 
 i = 1
 
@@ -141,9 +140,9 @@ print(groceries)
 newFile = open("math", "w")
 newFile.write("i like python")
 
-x = 500
-if x > 100:
-    raise Exception("x should not be above 100")
+# x = 500
+# if x > 100:
+#     raise Exception("x should not be above 100")
 
 # try:
 #     print(variable1)
@@ -154,7 +153,7 @@ if x > 100:
 #     print("im so happy")
 
 try:
-    print(12*6)
+    print(12 * 6)
 except:
     print("this operation can be performed")
 else:
@@ -163,10 +162,13 @@ else:
 best_burger = "burger king"
 num2burger = "mcdo"
 
-assert best_burger == "burger king"
-assert best_burger == "mcdo"
+# assert best_burger == "burger king"
+# assert best_burger == "mcdo"
 
-
-import functionfile
 
 functionfile.simplefunc()
+
+print("hello world")
+
+help("modules")
+help("sched")
